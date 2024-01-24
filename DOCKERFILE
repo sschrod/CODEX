@@ -11,9 +11,9 @@ ADD requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
 
 # Additional requirements for GEARS (uncomment)
-RUN pip3 install torch_geometric==2.4.0
-RUN pip3 install networkx==3.1
-RUN pip3 install dcor==0.6
-RUN pip3 install tqdm==4.66.1
+# RUN pip3 install torch_geometric==2.4.0
+# RUN pip3 install networkx==3.1
+# RUN pip3 install dcor==0.6
+# RUN pip3 install tqdm==4.66.1
 
 WORKDIR /mnt
