@@ -1,0 +1,6 @@
+/Data/*
+!/Data/README.md
+!/Data/Preprocess_Combosciplex.py
+*/__pycache__/*
+/models/*
+/gears/*
