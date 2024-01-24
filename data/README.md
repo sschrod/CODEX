@@ -1,6 +1,6 @@
 To run the experiments and reproduce the results of the paper additional data download is required.
 
-###Drug-synergy experiments
+### Drug-synergy experiments
 To run the drug synergy_experiments clone the MARSY [1] GitHub repository https://github.com/Emad-COMBINE-lab/MARSY/tree/main, create a folder `./MARSY` and copy all files from `MARSY/data`.
 
 ### Dose experiment
