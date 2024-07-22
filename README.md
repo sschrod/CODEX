@@ -1,4 +1,4 @@
-# CODEX: CODEX: COunterfactual Deep learning for the in-silico EXploration of cancer cell line perturbations
+# CODEX: COunterfactual Deep learning for the in-silico EXploration of cancer cell line perturbations
 
 
 This repository implements CODEX, a general framework for the causal modelling of HTS data, linking perturbations to their downstream consequences. CODEX relies on a stringent causal modeling framework based on counterfactual reasoning. As such, CODEX predicts drug-specific cellular responses, comprising cell survival and molecular alterations, and facilitates the in-silico exploration of drug combinations.
@@ -22,5 +22,7 @@ Example calls are included in each of main files.
 Each run will save the log file, containing the train, validation, and test scores and the model corresponding to the best validation score in a unique folder named by the used hyper-parameters and the defined `--save_folder` in `models/`.
 For final model selection, iterate over all log files corresponding to one experiment and load the model corresponding to the minimal validation score. 
 
+## References
+Stefan Schrod, Helena U Zacharias, Tim Beißbarth, Anne-Christin Hauschild, Michael Altenbuchinger, CODEX: COunterfactual Deep learning for the in silico EXploration of cancer cell line perturbations, Bioinformatics, Volume 40, Issue Supplement_1, July 2024, Pages i91–i99, https://doi.org/10.1093/bioinformatics/btae261
 
 
