@@ -17,6 +17,19 @@ The gene-perturbation experiments download the data automatically from the datav
 Additionally, installation of GEARS is required (https://github.com/snap-stanford/GEARS) since CODEX uses the 
 `PertData()` class for data loading. Then simply add `--downlad_data` the first time you run `CODEX_Norman19.py` and `CODEX_Replogle.py` to download and preprocess the data.
 
+If `--download_data` does not work an produces empty files, download the files manually from dataverse:
+
+`essential_all_data_pert_genes.pkl` https://dataverse.harvard.edu/api/access/datafile/6934320
+
+`gene2go_all.pkl` https://dataverse.harvard.edu/api/access/datafile/6153417
+
+`norman.zip` https://dataverse.harvard.edu/api/access/datafile/6154020
+
+`replogle_k562_essential.zip` https://dataverse.harvard.edu/api/access/datafile/7458695
+
+`replogle_rpe1_essential.zip` https://dataverse.harvard.edu/api/access/datafile/7458694
+
+
 
 ### References
 [1] El Khili, Mohamed Reda, Safyan Aman Memon, and Amin Emad. "MARSY: a multitask deep-learning framework for prediction of drug combination synergy scores." Bioinformatics 39.4 (2023): btad177
